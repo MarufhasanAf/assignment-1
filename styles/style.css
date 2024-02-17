@@ -1,3 +1,153 @@
-body {
-    background-color: orangered;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.celebration-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.576), rgba(79, 79, 79, 0.245)), url('../images/Banner Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    color: white;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container h4 {
+    font-size: 30px;
+
+}
+
+.banner-container h2 {
+    font-size: 70px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.banner-container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.new-year-container {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.new-year-container h2 {
+    font-size: 70px;
+    color: #FF0000;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.new-year-container p {
+    color: #FF0000;
+    font-family: arial;
+    margin-bottom: 6px;
+
+}
+
+.new-year-container h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #070211;
+    font-family: arial;
+
+}
+
+.new-year-container img {
+
+    margin-top: 30px;
+    width: 802px;
+    height: 500px;
+    display: inline-block;
+}
+
+.party-section {
+    margin-bottom: 70px 0px;
+}
+
+.party-container {
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    border-radius: 15px;
+    margin: auto;
+    color: white;
+
+}
+
+.left-side h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.left-side p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.left-side a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.right-side img {
+    width: 320px;
+    height: 464px;
+}
+
+.schedule-section {
+    margin: 70px 0px;
+}
+
+.schedule-container {
+    background-image: linear-gradient(#ff000041, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 482px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.schedule-container h4 {
+    font-family: arial;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #070211;
+}
+
+.schedule-clr {
+    color: #FF0000;
+}
+
+.schedule-container button {
+    padding: 15px 30px;
+    background-color: #FF0000;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
 }
