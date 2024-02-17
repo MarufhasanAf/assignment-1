@@ -237,6 +237,12 @@
     gap: 20px;
 }
 
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
 .newsletter-section {
     margin-top: 100px;
 }
